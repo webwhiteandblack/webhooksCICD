@@ -1,3 +1,4 @@
+#!/bin/bash
 workingDir="/usr/project/"
 buildDir="/usr/build/"
 echo "Deploying to server..."
