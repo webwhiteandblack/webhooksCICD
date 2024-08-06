@@ -1,4 +1,4 @@
-workingDir="usr/project/"
+workingDir="/usr/project/"
 buildDir="/usr/build/"
 echo "Deploying to server..."
 mv -f $buildDir/build/koaServer/dist  $workingDir/project/koaServer
