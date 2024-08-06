@@ -1,8 +1,8 @@
 #!/bin/bash
-workingDir="/usr/project/"
-buildDir="/usr/build/"
+workingDir="/usr/project/koaServer"
+buildDir="/usr/build/koaServer"
 echo "Deploying to server..."
-mv -f $buildDir/build/koaServer/dist  $workingDir/project/koaServer
+cp -rf $workingDir  $buildDir
 if [ $? -eq 0 ]; then
   echo "Deployed successfully"
   exit 0
