@@ -1,0 +1,19 @@
+{
+  "name": "workerBend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.15.3"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.1"
+  }
+}
