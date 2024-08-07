@@ -1,6 +1,8 @@
 #!/bin/bash
-workingDir="/usr/project/koaServer"
-buildDir="/usr/build/koaServer"
+source vardata.sh
+source gitPull.sh
+pullFn
+
 echo "Deploying to server..."
 # 判断目录是否存在，如果不存在则创建目录
 if [ ! -d "$buildDir" ]; then
